@@ -3,6 +3,7 @@ lockfileVersion: 5.3
 specifiers:
   '@babel/core': ^7.12.16
   '@babel/eslint-parser': ^7.12.16
+  '@oit/eslint-config': ^1.0.3
   '@vue/cli-plugin-babel': ~5.0.0
   '@vue/cli-plugin-eslint': ~5.0.0
   '@vue/cli-plugin-router': ~5.0.0
@@ -23,6 +24,7 @@ specifiers:
   vuex: ^3.6.2
 
 dependencies:
+  '@oit/eslint-config': 1.0.3
   core-js: 3.21.1
   vue: 2.6.14
   vue-router: 3.5.3
@@ -1347,6 +1349,10 @@ packages:
       '@nodelib/fs.scandir': 2.1.5
       fastq: 1.13.0
     dev: true
+
+  /@oit/eslint-config/1.0.3:
+    resolution: {integrity: sha512-mzqfu+KwXuCrojHKPG8OrxVnLAssCdpxNMJfJpHzlhk4i/Kt1fWm5+PzXFMnsWlNqTBY6V+grCub+fKB2m42ig==}
+    dev: false
 
   /@polka/url/1.0.0-next.21:
     resolution: {integrity: sha512-a5Sab1C4/icpTZVzZc5Ghpz88yQtGOyNqYXcZgOssB2uuAr+wF/MvN6bgtW32q7HHrvBki+BsZ0OuNv6EV3K9g==}
@@ -3988,7 +3994,7 @@ packages:
     dev: true
 
   /hash-sum/1.0.2:
-    resolution: {integrity: sha512-fUs4B4L+mlt8/XAtSOGMUO1TXmAelItBPtJG7CyHJfYTdDjwisntGO2JQz7oUsatOY9o68+57eziUVNw/mRHmA==}
+    resolution: {integrity: sha1-M7QHd3VMZDJXPBIMw4CLvRDUfwQ=}
     dev: true
 
   /hash-sum/2.0.0:
